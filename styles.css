@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #f3f3f3;
+    grid-template-columns: repeat(5, 1fr); /* Definiendo 5 columnas */
+    grid-template-areas: 
+        "encabezado encabezado encabezado encabezado encabezado"; /* Definiendo el área del encabezado */
+}
+
+.encabezado {
+    background-color: lightblue;
+    grid-area: encabezado; 
+}
+
+.imagen_cabeza {
+    grid-column: 3 / 4; /* Asegúrate de que esta línea esté correcta: columna 3 a 4 */
+}
