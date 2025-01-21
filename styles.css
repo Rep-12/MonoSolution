@@ -1,15 +1,15 @@
 body {
     display: grid;
-    grid-gap: 10px;
-    background-color: #f3f3f3;
-    grid-template-columns: repeat(5, 1fr); /* Definiendo 5 columnas */
-    grid-template-areas: 
-        "encabezado encabezado encabezado encabezado encabezado"; /* Definiendo el área del encabezado */
+    background-color: lightgray;
+    padding:0;
+    margin: 0;
 }
 
 .encabezado {
-    background-color: lightblue;
-    grid-area: encabezado; 
+    background-color: black;
+    width: 100%;
+    height: auto;
+    color: white;
 }
 
 .imagen_cabeza {
