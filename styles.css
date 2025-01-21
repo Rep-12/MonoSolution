@@ -13,5 +13,11 @@ body {
 }
 
 .imagen_cabeza {
-    grid-column: 3 / 4; /* Asegúrate de que esta línea esté correcta: columna 3 a 4 */
+    justify-content: right;
+    width: 1%;
+    height: auto;
+    max-height: 20px;
+    float: right;
+    max-height: 100%;
+
 }
