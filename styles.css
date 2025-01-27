@@ -32,11 +32,3 @@ body {
 .encabezado:hover {
     background-color: red;
 }
-
-.contenido {
-    text-align: center;
-    display: grid;
-    justify-content: left;
-    color: black;
-    font-size: 20px;
-}
