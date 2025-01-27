@@ -1,7 +1,7 @@
 body {
     display: grid;
     background-color: lightgray;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -22,6 +22,7 @@ body {
     margin-right: 10%;
     grid-column: 3/3
 }
+<<<<<<< HEAD
 .menu {
     background-color: rgba(78, 73, 73, 0.938);;
     height: 50px;
@@ -37,3 +38,13 @@ body {
     width: 200%;
 }
 
+=======
+
+.imagen_cabeza:hover {
+    background-color: red;
+}
+
+.encabezado:hover {
+    background-color: red;
+}
+>>>>>>> 7fb30ee11f88d86a5af6e8131e4610355d2ef4c5
